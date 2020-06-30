@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4268F7A524ABE595003BBE93 /* dnd-toggle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "dnd-toggle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4268F7A524ABE595003BBE93 /* dnd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dnd; sourceTree = BUILT_PRODUCTS_DIR; };
 		4268F7A824ABE595003BBE93 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		4268F79C24ABE595003BBE93 = {
 			isa = PBXGroup;
 			children = (
-				4268F7A724ABE595003BBE93 /* dnd-toggle */,
+				4268F7A724ABE595003BBE93 /* dnd */,
 				4268F7A624ABE595003BBE93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		4268F7A624ABE595003BBE93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4268F7A524ABE595003BBE93 /* dnd-toggle */,
+				4268F7A524ABE595003BBE93 /* dnd */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4268F7A724ABE595003BBE93 /* dnd-toggle */ = {
+		4268F7A724ABE595003BBE93 /* dnd */ = {
 			isa = PBXGroup;
 			children = (
 				4268F7A824ABE595003BBE93 /* main.swift */,
 			);
-			path = "dnd-toggle";
+			path = dnd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4268F7A424ABE595003BBE93 /* dnd-toggle */ = {
+		4268F7A424ABE595003BBE93 /* dnd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4268F7AC24ABE595003BBE93 /* Build configuration list for PBXNativeTarget "dnd-toggle" */;
+			buildConfigurationList = 4268F7AC24ABE595003BBE93 /* Build configuration list for PBXNativeTarget "dnd" */;
 			buildPhases = (
 				4268F7A124ABE595003BBE93 /* Sources */,
 				4268F7A224ABE595003BBE93 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "dnd-toggle";
+			name = dnd;
 			productName = "dnd-toggle";
-			productReference = 4268F7A524ABE595003BBE93 /* dnd-toggle */;
+			productReference = 4268F7A524ABE595003BBE93 /* dnd */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4268F7A024ABE595003BBE93 /* Build configuration list for PBXProject "dnd-toggle" */;
+			buildConfigurationList = 4268F7A024ABE595003BBE93 /* Build configuration list for PBXProject "dnd" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4268F7A424ABE595003BBE93 /* dnd-toggle */,
+				4268F7A424ABE595003BBE93 /* dnd */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +266,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4268F7A024ABE595003BBE93 /* Build configuration list for PBXProject "dnd-toggle" */ = {
+		4268F7A024ABE595003BBE93 /* Build configuration list for PBXProject "dnd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4268F7AA24ABE595003BBE93 /* Debug */,
@@ -275,7 +275,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4268F7AC24ABE595003BBE93 /* Build configuration list for PBXNativeTarget "dnd-toggle" */ = {
+		4268F7AC24ABE595003BBE93 /* Build configuration list for PBXNativeTarget "dnd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4268F7AD24ABE595003BBE93 /* Debug */,
