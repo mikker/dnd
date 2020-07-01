@@ -7,6 +7,8 @@
 
 import Foundation
 
+let version = "1.0.0"
+
 func dndOn() -> Bool {
   let state =
     CFPreferencesCopyValue(
@@ -65,6 +67,7 @@ enum Cmd {
   case on
   case off
   case usage
+  case version
 }
 
 var cmd: Cmd
@@ -81,6 +84,9 @@ if CommandLine.arguments.count == 1 {
   case "toggle":
     cmd = .toggle
     break
+  case "version":
+    cmd = .version
+    break
   default:
     cmd = .usage
     break
@@ -88,6 +94,12 @@ if CommandLine.arguments.count == 1 {
 }
 
 switch cmd {
+case .usage:
+  print("dnd [on|off|toggle|usage|version]")
+  exit(1)
+case .version:
+  print(version)
+  break
 case .on:
   enableDND()
   break
@@ -97,7 +109,4 @@ case .off:
 case .toggle:
   dndOn() ? disableDND() : enableDND()
   break
-case .usage:
-  print("dnd [on|off|toggle]")
-  exit(1)
 }
